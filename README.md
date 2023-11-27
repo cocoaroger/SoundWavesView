@@ -1,4 +1,7 @@
-![SoundWavesGIF](https://raw.githubusercontent.com/uclort/file/master/SoundWavesGIF.gif)
+# 模仿微信语音发送动画效果
+
+1. 根据声音大小，切换动画效果
+2. 监听多个组件之间手势触摸和滑动
 
 ```objective-c
 typedef NS_ENUM(NSInteger, SoundWavesLevel) {
@@ -14,4 +17,8 @@ typedef NS_ENUM(NSInteger, SoundWavesLevel) {
     SoundWavesLevelStrong = 4,
 };
 ```
+
+<video id="video" controls="" preload="none" poster="封面">
+    <source id="mp4" src="soundwave.mp4" type="video/mp4">
+</videos>
 
