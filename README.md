@@ -18,5 +18,5 @@ typedef NS_ENUM(NSInteger, SoundWavesLevel) {
 };
 ```
 
-![演示图片](./soundwave.gif)
+![演示图片](https://github.com/cocoaroger/SoundWavesView/blob/main/soundwave.gif)
 
