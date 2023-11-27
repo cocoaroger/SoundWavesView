@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6065CCAB2982E3986A65F0 /* Pods_SoundWaves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DD1596BBCB5E627DED7B62 /* Pods_SoundWaves.framework */; };
+		D5BE5F82263A4C1700C9D2AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE5F81263A4C1700C9D2AC /* AppDelegate.m */; };
+		D5BE5F85263A4C1700C9D2AC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE5F84263A4C1700C9D2AC /* SceneDelegate.m */; };
+		D5BE5F88263A4C1700C9D2AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE5F87263A4C1700C9D2AC /* ViewController.m */; };
+		D5BE5F8B263A4C1700C9D2AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BE5F89263A4C1700C9D2AC /* Main.storyboard */; };
+		D5BE5F8D263A4C1800C9D2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BE5F8C263A4C1800C9D2AC /* Assets.xcassets */; };
+		D5BE5F90263A4C1800C9D2AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BE5F8E263A4C1800C9D2AC /* LaunchScreen.storyboard */; };
+		D5BE5F93263A4C1800C9D2AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE5F92263A4C1800C9D2AC /* main.m */; };
+		D5F703D9263A8D7900A7AB71 /* CRSoundWavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F703D8263A8D7900A7AB71 /* CRSoundWavesView.m */; };
+		D5F703DD263AB71E00A7AB71 /* CRSoundWavesLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F703DC263AB71E00A7AB71 /* CRSoundWavesLine.m */; };
+		DB08C39C2AF5E585009C7463 /* CRRecorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08C39B2AF5E585009C7463 /* CRRecorderView.m */; };
+		DB08C39F2AF5FDC6009C7463 /* CRRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08C39E2AF5FDC6009C7463 /* CRRecorder.m */; };
+		DB08C3A22AF630B4009C7463 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08C3A12AF630B4009C7463 /* UIAlertController+Blocks.m */; };
+		DB08C3A52AF64AC4009C7463 /* CRTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08C3A42AF64AC4009C7463 /* CRTouchButton.m */; };
+		DB08C3A82AF684BB009C7463 /* CRControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08C3A72AF684BB009C7463 /* CRControlButton.m */; };
+		DB08C3AB2AF68744009C7463 /* CRRecorderBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB08C3AA2AF68744009C7463 /* CRRecorderBackgroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47EC7333597FC8C543DAA3CE /* Pods-SoundWaves.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaves.debug.xcconfig"; path = "Target Support Files/Pods-SoundWaves/Pods-SoundWaves.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5C746145074F697FF6C5C6 /* Pods-SoundWaves.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaves.release.xcconfig"; path = "Target Support Files/Pods-SoundWaves/Pods-SoundWaves.release.xcconfig"; sourceTree = "<group>"; };
+		C8DD1596BBCB5E627DED7B62 /* Pods_SoundWaves.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundWaves.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BE5F7D263A4C1700C9D2AC /* SoundWaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundWaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BE5F80263A4C1700C9D2AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5BE5F81263A4C1700C9D2AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5BE5F83263A4C1700C9D2AC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D5BE5F84263A4C1700C9D2AC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D5BE5F86263A4C1700C9D2AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5BE5F87263A4C1700C9D2AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5BE5F8A263A4C1700C9D2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5BE5F8C263A4C1800C9D2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5BE5F8F263A4C1800C9D2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5BE5F91263A4C1800C9D2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BE5F92263A4C1800C9D2AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F703D7263A8D7900A7AB71 /* CRSoundWavesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSoundWavesView.h; sourceTree = "<group>"; };
+		D5F703D8263A8D7900A7AB71 /* CRSoundWavesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSoundWavesView.m; sourceTree = "<group>"; };
+		D5F703DB263AB71E00A7AB71 /* CRSoundWavesLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSoundWavesLine.h; sourceTree = "<group>"; };
+		D5F703DC263AB71E00A7AB71 /* CRSoundWavesLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSoundWavesLine.m; sourceTree = "<group>"; };
+		DB08C39A2AF5E585009C7463 /* CRRecorderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRecorderView.h; sourceTree = "<group>"; };
+		DB08C39B2AF5E585009C7463 /* CRRecorderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRecorderView.m; sourceTree = "<group>"; };
+		DB08C39D2AF5FDC6009C7463 /* CRRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRecorder.h; sourceTree = "<group>"; };
+		DB08C39E2AF5FDC6009C7463 /* CRRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRecorder.m; sourceTree = "<group>"; };
+		DB08C3A02AF630B3009C7463 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		DB08C3A12AF630B4009C7463 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		DB08C3A32AF64AC4009C7463 /* CRTouchButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTouchButton.h; sourceTree = "<group>"; };
+		DB08C3A42AF64AC4009C7463 /* CRTouchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTouchButton.m; sourceTree = "<group>"; };
+		DB08C3A62AF684BB009C7463 /* CRControlButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRControlButton.h; sourceTree = "<group>"; };
+		DB08C3A72AF684BB009C7463 /* CRControlButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRControlButton.m; sourceTree = "<group>"; };
+		DB08C3A92AF68744009C7463 /* CRRecorderBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRecorderBackgroundView.h; sourceTree = "<group>"; };
+		DB08C3AA2AF68744009C7463 /* CRRecorderBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRecorderBackgroundView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5BE5F7A263A4C1700C9D2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6065CCAB2982E3986A65F0 /* Pods_SoundWaves.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEC4626B8A3ABA3797D46B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8DD1596BBCB5E627DED7B62 /* Pods_SoundWaves.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BE5F74263A4C1700C9D2AC = {
+			isa = PBXGroup;
+			children = (
+				D5BE5F7F263A4C1700C9D2AC /* SoundWaves */,
+				D5BE5F7E263A4C1700C9D2AC /* Products */,
+				E9F17B7970A129EB53B4174A /* Pods */,
+				0BEC4626B8A3ABA3797D46B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5BE5F7E263A4C1700C9D2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5BE5F7D263A4C1700C9D2AC /* SoundWaves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5BE5F7F263A4C1700C9D2AC /* SoundWaves */ = {
+			isa = PBXGroup;
+			children = (
+				DB08C3992AF5E565009C7463 /* CRRecorderView */,
+				D5BE5F80263A4C1700C9D2AC /* AppDelegate.h */,
+				D5BE5F81263A4C1700C9D2AC /* AppDelegate.m */,
+				D5BE5F83263A4C1700C9D2AC /* SceneDelegate.h */,
+				D5BE5F84263A4C1700C9D2AC /* SceneDelegate.m */,
+				D5BE5F86263A4C1700C9D2AC /* ViewController.h */,
+				D5BE5F87263A4C1700C9D2AC /* ViewController.m */,
+				D5BE5F89263A4C1700C9D2AC /* Main.storyboard */,
+				D5BE5F8C263A4C1800C9D2AC /* Assets.xcassets */,
+				D5BE5F8E263A4C1800C9D2AC /* LaunchScreen.storyboard */,
+				D5BE5F91263A4C1800C9D2AC /* Info.plist */,
+				D5BE5F92263A4C1800C9D2AC /* main.m */,
+			);
+			path = SoundWaves;
+			sourceTree = "<group>";
+		};
+		DB08C3992AF5E565009C7463 /* CRRecorderView */ = {
+			isa = PBXGroup;
+			children = (
+				DB08C39A2AF5E585009C7463 /* CRRecorderView.h */,
+				DB08C39B2AF5E585009C7463 /* CRRecorderView.m */,
+				D5F703D7263A8D7900A7AB71 /* CRSoundWavesView.h */,
+				D5F703D8263A8D7900A7AB71 /* CRSoundWavesView.m */,
+				D5F703DB263AB71E00A7AB71 /* CRSoundWavesLine.h */,
+				D5F703DC263AB71E00A7AB71 /* CRSoundWavesLine.m */,
+				DB08C39D2AF5FDC6009C7463 /* CRRecorder.h */,
+				DB08C39E2AF5FDC6009C7463 /* CRRecorder.m */,
+				DB08C3A02AF630B3009C7463 /* UIAlertController+Blocks.h */,
+				DB08C3A12AF630B4009C7463 /* UIAlertController+Blocks.m */,
+				DB08C3A32AF64AC4009C7463 /* CRTouchButton.h */,
+				DB08C3A42AF64AC4009C7463 /* CRTouchButton.m */,
+				DB08C3A62AF684BB009C7463 /* CRControlButton.h */,
+				DB08C3A72AF684BB009C7463 /* CRControlButton.m */,
+				DB08C3A92AF68744009C7463 /* CRRecorderBackgroundView.h */,
+				DB08C3AA2AF68744009C7463 /* CRRecorderBackgroundView.m */,
+			);
+			path = CRRecorderView;
+			sourceTree = "<group>";
+		};
+		E9F17B7970A129EB53B4174A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EC7333597FC8C543DAA3CE /* Pods-SoundWaves.debug.xcconfig */,
+				5B5C746145074F697FF6C5C6 /* Pods-SoundWaves.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5BE5F7C263A4C1700C9D2AC /* SoundWaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BE5F96263A4C1800C9D2AC /* Build configuration list for PBXNativeTarget "SoundWaves" */;
+			buildPhases = (
+				33BCB3549760624F31C960B2 /* [CP] Check Pods Manifest.lock */,
+				D5BE5F79263A4C1700C9D2AC /* Sources */,
+				D5BE5F7A263A4C1700C9D2AC /* Frameworks */,
+				D5BE5F7B263A4C1700C9D2AC /* Resources */,
+				E98AB799AE3D6584C46C1317 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundWaves;
+			productName = SoundWaves;
+			productReference = D5BE5F7D263A4C1700C9D2AC /* SoundWaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5BE5F75263A4C1700C9D2AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D5BE5F7C263A4C1700C9D2AC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D5BE5F78263A4C1700C9D2AC /* Build configuration list for PBXProject "SoundWaves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5BE5F74263A4C1700C9D2AC;
+			productRefGroup = D5BE5F7E263A4C1700C9D2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5BE5F7C263A4C1700C9D2AC /* SoundWaves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5BE5F7B263A4C1700C9D2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BE5F90263A4C1800C9D2AC /* LaunchScreen.storyboard in Resources */,
+				D5BE5F8D263A4C1800C9D2AC /* Assets.xcassets in Resources */,
+				D5BE5F8B263A4C1700C9D2AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33BCB3549760624F31C960B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundWaves-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98AB799AE3D6584C46C1317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundWaves/Pods-SoundWaves-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundWaves/Pods-SoundWaves-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundWaves/Pods-SoundWaves-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5BE5F79263A4C1700C9D2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08C3A82AF684BB009C7463 /* CRControlButton.m in Sources */,
+				DB08C3A52AF64AC4009C7463 /* CRTouchButton.m in Sources */,
+				D5F703DD263AB71E00A7AB71 /* CRSoundWavesLine.m in Sources */,
+				DB08C3AB2AF68744009C7463 /* CRRecorderBackgroundView.m in Sources */,
+				D5BE5F88263A4C1700C9D2AC /* ViewController.m in Sources */,
+				DB08C39F2AF5FDC6009C7463 /* CRRecorder.m in Sources */,
+				D5F703D9263A8D7900A7AB71 /* CRSoundWavesView.m in Sources */,
+				D5BE5F82263A4C1700C9D2AC /* AppDelegate.m in Sources */,
+				D5BE5F93263A4C1800C9D2AC /* main.m in Sources */,
+				DB08C39C2AF5E585009C7463 /* CRRecorderView.m in Sources */,
+				D5BE5F85263A4C1700C9D2AC /* SceneDelegate.m in Sources */,
+				DB08C3A22AF630B4009C7463 /* UIAlertController+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5BE5F89263A4C1700C9D2AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BE5F8A263A4C1700C9D2AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5BE5F8E263A4C1800C9D2AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BE5F8F263A4C1800C9D2AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5BE5F94263A4C1800C9D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5BE5F95263A4C1800C9D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5BE5F97263A4C1800C9D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EC7333597FC8C543DAA3CE /* Pods-SoundWaves.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D38MSTEEUK;
+				INFOPLIST_FILE = SoundWaves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = houmeng.hahang.soundWaves.SoundWaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = allApp;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5BE5F98263A4C1800C9D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5C746145074F697FF6C5C6 /* Pods-SoundWaves.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoundWaves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = houmeng.hahang.soundWaves.SoundWaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5BE5F78263A4C1700C9D2AC /* Build configuration list for PBXProject "SoundWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BE5F94263A4C1800C9D2AC /* Debug */,
+				D5BE5F95263A4C1800C9D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BE5F96263A4C1800C9D2AC /* Build configuration list for PBXNativeTarget "SoundWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BE5F97263A4C1800C9D2AC /* Debug */,
+				D5BE5F98263A4C1800C9D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5BE5F75263A4C1700C9D2AC /* Project object */;
+}
